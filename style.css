@@ -10,6 +10,7 @@
   --font-size-h2: 3rem;
   --font-size-h3: 2rem;
   --gap-1: 1rem;
+  --gap-1-5: 1.5rem;
   --gap-2: 2rem;
   --gap-3: 3rem;
   --gap-4: 4rem;
@@ -79,6 +80,10 @@ p {
 .button.brand-color {
   background-color: var(--color-brand);
   border: 1px solid var(--color-brand);
+}
+.button.small {
+  font-size: 0.875rem;
+  padding: 0.5rem 1rem;
 }
 .button img {
   margin-right: 0.5rem;
@@ -158,6 +163,55 @@ section {
 .cta-wrapper h3 {
   margin-bottom: var(--gap-2);
 }
-/* SECTION FORM*/
 
 /* FORM */
+
+#footer {
+  background-color: var(--color-dark-text);
+  color: var(--color-white);
+  padding-top: var(--gap-6);
+  padding-bottom: var(--gap-4);
+}
+#footer-component {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: var(--gap-3);
+  border-bottom: 1px solid var(--color-brand);
+}
+#footer-left {
+  width: 33%;
+}
+.social-wrapper {
+  display: flex;
+  gap: var(--gap-1-5);
+  margin-top: var(--gap-3);
+}
+
+#footer-right {
+  width: 65%;
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+}
+#footer-right ul {
+  width: 24%;
+}
+#footer-right li {
+  list-style-type: none;
+  margin-top: var(--gap-1);
+}
+#footer-right li:first-of-type {
+  margin-bottom: var(--gap-2);
+  color: var(--color-brand);
+}
+
+#nav-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: var(--gap-2);
+}
+#nav-footer a {
+  margin-right: auto;
+}
