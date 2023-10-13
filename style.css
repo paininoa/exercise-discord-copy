@@ -146,6 +146,18 @@ section {
   width: 100%;
 }
 
+#cta-section {
+  padding-top: 0;
+}
+.cta-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cta-wrapper h3 {
+  margin-bottom: var(--gap-2);
+}
 /* SECTION FORM*/
 
 /* FORM */
